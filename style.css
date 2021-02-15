@@ -1,4 +1,92 @@
-body {background-color:tan;}
-h1{color:green;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html {
+  font-size: 62.5%;
+}
 
+body {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.container {
+  background: #fff;
+  position: relative;
+  border-radius: 2rem;
+  padding: 3rem 2.5rem 15rem;
+}
+
+.container h1 {
+  font-size: 4rem;
+  color: grey;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.container form div {
+  width: 50%;
+  display: flex;
+}
+.container form div {
+  margin-top: 1.5rem;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.container form div input {
+  margin-left: auto;
+  width: 60%;
+}
+.container form div select {
+  margin-left: 3rem;
+}
+
+.container button {
+  align-self: start;
+  margin-left: 7.3rem;
+  margin-top: 2rem;
+  padding: 0.3rem;
+}
+
+.form div label {
+  font-size: 1.6rem;
+  margin-right: 2rem;
+}
+
+.rate-text {
+  position: absolute;
+  right: -3.5rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+#result {
+  position: absolute;
+  width: 35%;
+  bottom: 6.5rem;
+  left: 10rem;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.copyright {
+  position: absolute;
+  left: 3rem;
+  bottom: 2.5rem;
+  font-size: 1.5rem;
+}

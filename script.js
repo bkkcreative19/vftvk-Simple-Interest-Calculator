@@ -13,8 +13,10 @@ form.addEventListener("submit", submitForm);
 
 function submitForm(e) {
   e.preventDefault();
-  console.log(yearsDOM.value);
-  const rate = rateDOM;
+  if (Number(amountDOM.value) <= 0) {
+    alert("Enter positve number");
+    return;
+  }
   const answer =
     amountDOM.value *
     (1 + parseFloat(rateDOM.value / 100) * Number(yearsDOM.value));

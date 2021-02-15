@@ -37,15 +37,12 @@ body {
 }
 
 .container form div {
-  width: 50%;
-  display: flex;
-}
-.container form div {
   margin-top: 1.5rem;
   width: 70%;
   display: flex;
   align-items: center;
   position: relative;
+  padding: 0 1rem;
 }
 
 .container form div input {
@@ -53,12 +50,12 @@ body {
   width: 60%;
 }
 .container form div select {
-  margin-left: 3rem;
+  margin-left: 2.2rem;
 }
 
 .container button {
   align-self: start;
-  margin-left: 7.3rem;
+  margin-left: 8.2rem;
   margin-top: 2rem;
   padding: 0.3rem;
 }
@@ -71,6 +68,7 @@ body {
 .rate-text {
   position: absolute;
   right: -3.5rem;
+  margin-left: 2rem;
   font-size: 1.3rem;
   font-weight: bold;
 }
